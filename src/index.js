@@ -5,7 +5,6 @@ const Task=require('./models/task')
 const userRouter=require('./routers/user')
 const taskRouter=require('./routers/task')
 
-require('../config/dev.env')
 const app=express()
 const port=process.env.PORT
 
